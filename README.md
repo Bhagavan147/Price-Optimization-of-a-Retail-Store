@@ -1,9 +1,9 @@
 # Price Optimization of a Retail Store
 
-## **Objective**  
+### **Objective**  
 TrendElite, a multi-channel clothing retailer, seeks to enhance revenue and competitiveness by optimizing its pricing strategy. The goal is to determine optimal prices that **maximize revenue while maintaining strong customer demand**.  
 
-## **Dataset Description**  
+### **Dataset Description**  
 
 | **Feature**                  | **Description**  |  
 |------------------------------|----------------------------------------------------------------|  
@@ -38,7 +38,8 @@ TrendElite, a multi-channel clothing retailer, seeks to enhance revenue and comp
 | **Fp3**                      | Freight price of competitor 3.  |  
 | **Lag_price**                | Previous month's price of the product.  |  
 
-## **Approach**  
+### **Approach**  
+
 1. **Data Exploration & Preprocessing**: Clean and analyze key variables, including product attributes, customer behavior, and sales trends, while handling outliers, missing values, and duplicates.  
 2. **Descriptive Analysis & Feature Engineering**: Generate insights using visualizations and statistics; create new features such as **profit, profit margin, revenue, and time-based factors (weekend/holiday indicators)**.  
 3. **Pricing Model Development**: Utilize **machine learning models** to predict optimal prices by analyzing factors like **production costs, demand elasticity, and competitor pricing**.  
